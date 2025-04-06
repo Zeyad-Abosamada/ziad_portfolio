@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ziad Abosamada - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      transition: all 0.3s ease-in-out;
+    }
+    h2 {
+      color: #2980b9;
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 20px;
+      list-style: none;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #1c5980;
+    }
+    .btn {
+      display: inline-block;
+      background: #2980b9;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #1c5980;
+    }
+    .fade {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease-in-out;
+    }
+    .fade.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ziad Medhat Massoud Abosamada</h1>
+    <p>Software & Multimedia | Front-End Development Enthusiast</p>
+  </header>
+  <section class="fade">
+    <h2>About Me</h2>
+    <p>I'm a Computer Science student passionate about coding, front-end development, and building creative solutions to real-world problems. I enjoy learning new technologies and turning ideas into interactive user interfaces.</p>
+  </section>
+  <section class="fade">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website:</strong> The one you're looking at now!</li>
+      <li><strong>Calculator App:</strong> Java GUI for basic operations</li>
+      <li><strong>To-Do List:</strong> JavaScript-powered front-end task manager</li>
+      <li><strong>Grades Manager:</strong> Python CLI for students’ performance tracking</li>
+    </ul>
+  </section>
+  <section class="fade">
+    <h2>Download My CV</h2>
+    <p>You can download a PDF version of my CV below:</p>
+    <a class="btn" href="Ziad_Abosamada_CV_Reformatted.pdf" download>Download CV</a>
+  </section>
+  <section class="fade">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:ziadabosamada@gmail.com">ziadabosamada@gmail.com</a></li>
+      <li>Phone: +20 1027821405</li>
+      <li>GitHub: <a href="https://github.com/Zeyad-Abosamada" target="_blank">github.com/Zeyad-Abosamada</a></li>
+    </ul>
+  </section>
+  <script>
+    // Simple scroll animation
+    const appearOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    // Removed duplicate declaration of 'appearOnScroll' to avoid redeclaration error
+  </script>
+</body>
+</html>
+``````html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ziad Abosamada - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+    }
+    h2 {
+      color: #2980b9;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-block;
+      background: #2980b9;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #1c5980;
+    }
+    .fade {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    .fade.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ziad Medhat Masoud Abosamada</h1>
+    <p>Software & Multimedia | Front-End Development Enthusiast</p>
+  </header>
+  <section class="fade">
+    <h2>About Me</h2>
+    <p>I'm a Computer Science student passionate about coding, front-end development, and building creative solutions to real-world problems. I enjoy learning new technologies and turning ideas into interactive user interfaces.</p>
+  </section>
+  <section class="fade">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website:</strong> The one you're looking at now!</li>
+      <li><strong>Calculator App:</strong> Java GUI for basic operations</li>
+      <li><strong>To-Do List:</strong> JavaScript-powered front-end task manager</li>
+      <li><strong>Grades Manager:</strong> Python CLI for students’ performance tracking</li>
+    </ul>
+  </section>
+  <section class="fade">
+    <h2>Download My CV</h2>
+    <p>You can download a PDF version of my CV below:</p>
+    <a class="btn" href="Ziad_Abosamada_CV_Reformatted.pdf" download>Download CV</a>
+  </section>
+  <section class="fade">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:ziadabosamada@gmail.com">ziadabosamada@gmail.com</a></li>
+      <li>Phone: +20 1027821405</li>
+      <li>GitHub: <a href="https://github.com/Zeyad-Abosamada" target="_blank">github.com/Zeyad-Abosamada</a></li>
+    </ul>
+  </section>
+  <script>
+    // Simple scroll animation
+    // Removed duplicate declaration of 'faders' as it is already declared below
+  </script>
+</body>
+</html>
+```
+      background: #2c3e50;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h2 {
+      color: #2980b9;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-block;
+      background: #2980b9;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #1c5980;
+    }
+    .fade {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease-in-out;
+    }
+    .fade.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ziad Medhat Masoud Abosamada</h1>
+    <p>Software & Multimedia | Front-End Development Enthusiast</p>
+  </header>  <section class="fade">
+    <h2>About Me</h2>
+    <p>I'm a Computer Science student passionate about coding, front-end development, and building creative solutions to real-world problems. I enjoy learning new technologies and turning ideas into interactive user interfaces.</p>
+  </section>  <section class="fade">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website:</strong> The one you're looking at now!</li>
+      <li><strong>Calculator App:</strong> Java GUI for basic operations</li>
+      <li><strong>To-Do List:</strong> JavaScript-powered front-end task manager</li>
+      <li><strong>Grades Manager:</strong> Python CLI for students’ performance tracking</li>
+    </ul>
+  </section>  <section class="fade">
+    <h2>Download My CV</h2>
+    <p>You can download a PDF version of my CV below:</p>
+    <a class="btn" href="Ziad_Abosamada_CV_Reformatted.pdf" download>Download CV</a>
+  </section>  <section class="fade">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:ziadabosamada@gmail.com">ziadabosamada@gmail.com</a></li>
+      <li>Phone: +20 1027821405</li>
+      <li>GitHub: <a href="https://github.com/Zeyad-Abosamada" target="_blank">github.com/Zeyad-Abosamada</a></li>
+    </ul>
+  </section>  <script>
+    // Simple scroll animation
+    const faders = document.querySelectorAll('.fade');
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target);
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+  </script></body>
+</html>
